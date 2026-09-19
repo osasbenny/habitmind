@@ -30,7 +30,6 @@ class _HabitCardWidgetState extends State<HabitCardWidget>
     with SingleTickerProviderStateMixin {
   late AnimationController _animationController;
   late Animation<double> _scaleAnimation;
-  bool _isPressed = false;
 
   @override
   void initState() {
@@ -164,15 +163,12 @@ class _HabitCardWidgetState extends State<HabitCardWidget>
           child: GestureDetector(
             onLongPress: () => _showContextMenu(context),
             onTapDown: (_) {
-              setState(() => _isPressed = true);
               _animationController.forward();
             },
             onTapUp: (_) {
-              setState(() => _isPressed = false);
               _animationController.reverse();
             },
             onTapCancel: () {
-              setState(() => _isPressed = false);
               _animationController.reverse();
             },
             child: Container(

@@ -76,7 +76,6 @@ class AIHabitService {
 
       // Try to parse JSON response, fallback to structured data
       try {
-        final jsonResponse = response.text;
         // Simple parsing - in production, you'd want more robust JSON parsing
         return {
           "text":

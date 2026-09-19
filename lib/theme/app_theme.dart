@@ -93,7 +93,7 @@ class AppTheme {
     ),
 
     // Card theme with subtle elevation and rounded corners
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: pureWhite,
       elevation: 2.0,
       shadowColor: shadowLight,
@@ -289,7 +289,7 @@ class AppTheme {
     ),
 
     // Tab bar theme
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: primaryTeal,
       unselectedLabelColor: textMediumEmphasisLight,
       indicatorColor: primaryTeal,
@@ -348,7 +348,7 @@ class AppTheme {
     ),
 
     // Dialog theme
-    dialogTheme: DialogTheme(
+    dialogTheme: DialogThemeData(
       backgroundColor: pureWhite,
       elevation: 8.0,
       shape: RoundedRectangleBorder(
@@ -422,7 +422,7 @@ class AppTheme {
     ),
 
     // Card theme for dark mode
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: surfaceDark,
       elevation: 2.0,
       shadowColor: shadowDark,
@@ -618,7 +618,7 @@ class AppTheme {
     ),
 
     // Tab bar theme for dark mode
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: primaryTeal,
       unselectedLabelColor: textMediumEmphasisDark,
       indicatorColor: primaryTeal,
@@ -677,7 +677,7 @@ class AppTheme {
     ),
 
     // Dialog theme for dark mode
-    dialogTheme: DialogTheme(
+    dialogTheme: DialogThemeData(
       backgroundColor: surfaceDark,
       elevation: 8.0,
       shape: RoundedRectangleBorder(
