@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.habitmind.app",
+      "sha256_cert_fingerprints":
+        ["51:5B:56:BB:0D:E8:D4:44:77:7B:E5:4A:06:56:AA:69:4C:40:3B:E4:61:37:3B:FF:F0:C9:10:BF:FB:2B:B1:B6"]
+    }
+  }
+]
